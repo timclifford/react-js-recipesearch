@@ -2,6 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://timclifford.github.io/react-js-recipesearch",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
