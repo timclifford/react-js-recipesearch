@@ -1,0 +1,50 @@
+.recipePage {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.recipeDetails {
+  order: 1;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  margin: 0;
+}
+
+.detailsList {
+  margin-top: 20px;
+}
+
+.detailsList li {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.recipeImage {
+  order: 2;
+}
+
+.recipeImg {
+  width: 100%;
+  height: auto;
+}
+
+@media(min-width: 768px) {
+  .recipePage {
+    flex-direction: row;
+  }
+  .recipeDetails {
+    flex: 2;
+    order: 2;
+  }
+  .recipeImage {
+    flex: 1;
+    order: 1;
+    padding-right: 20px;
+  }
+}

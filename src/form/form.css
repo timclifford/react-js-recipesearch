@@ -1,0 +1,41 @@
+form {
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.searchBar {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 20px 0 20px 40px;
+  border: 1px solid #bdbdbd;
+  color: #000;
+  outline: none;
+  transition: all 0.35s ease-out;
+}
+
+.searchBar:focus {
+  border: 1px solid #1DE9B6;
+}
+
+::placeholder {
+  color: #000;
+  transition: all 0.35s ease-out;
+}
+
+.searchBar:focus::placeholder {
+  color: #1DE9B6;
+}
+
+.searchIcon {
+  position: absolute;
+  z-index: 9999;
+  margin: 18px 0 0 10px;
+}
+
+.noDisplay {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
