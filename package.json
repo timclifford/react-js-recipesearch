@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://timclifford.github.io/react-js-recipesearch",
+  "homepage": "https://timclifford.github.io/react-js-recipesearch",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^15.6.1",
