@@ -27,7 +27,7 @@ export class Form extends React.Component {
 
     const key = 'c7fcae67031c776148b87313a1bca82f';
 
-    fetch(`http://food2fork.com/api/search?key=${key}&q=${val}`)
+    fetch(`https://food2fork.com/api/search?key=${key}&q=${val}`)
       .then(response => {
         if (response.status !== 200) {
           console.log('Error: ' + response.status);

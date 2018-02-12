@@ -18,7 +18,7 @@ export class Recipe extends React.Component {
     const key = 'c7fcae67031c776148b87313a1bca82f';
     const id = window.location.pathname.substring(8);
 
-    fetch(`http://food2fork.com/api/get?key=${key}&rId=${id}`)
+    fetch(`https://food2fork.com/api/get?key=${key}&rId=${id}`)
       .then(response => {
         if (response.status !== 200) {
           console.log('Error: ' + response.status);
